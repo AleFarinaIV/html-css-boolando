@@ -6,6 +6,12 @@ html {
     }
     body {
         font-family: Arial, sans-serif;
+        .ta-center {
+            text-align: center;
+        }
+        .ta-end {
+            text-align: end;
+        }
         header {
             background-color: rgb(255 118 0);
             .container {
@@ -25,12 +31,6 @@ html {
                                 width: 110px;
                             }
                         }
-                        .ta-center {
-                            text-align: center;
-                        }
-                        .ta-end {
-                            text-align: end;
-                        }
                     }
                 }
             }
@@ -38,7 +38,7 @@ html {
         main {
             .container {
                 max-width: 1200px;
-                margin: 0 auto;
+                margin: 30px auto;
                 .row {
                     display: flex;
                     flex-wrap: wrap;
@@ -121,14 +121,27 @@ html {
                     flex-wrap: wrap;
                     .col-50 {
                         width: 50%;
-                        height: 150px;
-                        background-color: green;
-                        border: 1px solid black;
                         .content {
                             color: white;
-                        }
-                        .icons {
-                            color: white;
+                            padding: 25px 0;
+                            h4 {
+                                margin-bottom: 7px;
+                            }
+                            span {
+                                font-size: 12px;
+
+                            }
+                            h5 {
+                                font-size: 12px;
+                                margin-right: 13px;
+                            }
+                            .icons {
+                                font-size: 18px;
+                                padding-top: 10px;
+                                i {
+                                    margin-left: 4px;
+                                }
+                            }
                         }
                     }
                 }
