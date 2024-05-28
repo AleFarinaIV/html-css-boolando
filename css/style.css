@@ -110,5 +110,29 @@ html {
                 }
             }
         }
+        footer {
+            background-color: black;
+            border-bottom: 1px solid white;
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+                .row {
+                    display: flex;
+                    flex-wrap: wrap;
+                    .col-50 {
+                        width: 50%;
+                        height: 150px;
+                        background-color: green;
+                        border: 1px solid black;
+                        .content {
+                            color: white;
+                        }
+                        .icons {
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
