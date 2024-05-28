@@ -115,6 +115,10 @@ html {
                         .content:hover .d-none {
                             display: block;
                         }
+                        .labelHeart:hover {
+                            color: red;
+                            cursor:pointer;
+                        }
                     }
                 }
             }
