@@ -27,8 +27,14 @@ html {
                             padding: 15px;
                             font-size: small;
                             color: white;
+                            span {
+                                margin-right: 3px;
+                            }
                             .image-size {
                                 width: 110px;
+                            }
+                            .icons>i {
+                                margin-left: 5px;
                             }
                         }
                     }
@@ -89,6 +95,9 @@ html {
                             }
                             .info {
                                 font-size: 14px;
+                                h5 {
+                                    font-weight: normal;
+                                }
                                 span {
                                     color: red;
                                     font-size: 12px;
