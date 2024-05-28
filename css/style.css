@@ -50,6 +50,12 @@ html {
                             .image-size {
                                 max-width: 100%;
                             }
+                            .d-block {
+                                display: block;
+                            }
+                            .d-none {
+                                display: none;
+                            }
                             .labelHeart {
                                 padding: 5px 10px 5px 10px;
                                 background-color: white;
@@ -91,9 +97,14 @@ html {
                                 .td-line {
                                     color: black;
                                     text-decoration: line-through;
-                                }
-
+                                }    
                             }
+                        }
+                        .content:hover .d-block {
+                            display: none;
+                        }
+                        .content:hover .d-none {
+                            display: block;
                         }
                     }
                 }
